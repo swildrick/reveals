@@ -1,0 +1,21 @@
+/* PL Slots
+-----------------------------------------------------------
+-----------------------------------------------------------*/
+
+body {  }
+
+#revealContainer { position:relative; width:840px; margin: 0 auto; background-color:#999; }
+#slotGame { text-align:center; margin:20px auto; position:relative; width:800px; padding:20px; background-color:#cccccc;  }
+#slotGame #holderLever { overflow:hidden; top:0; right:10px; position:absolute; width:200px; height:320px; }
+#slotGame #holderLever #leverRedBall { z-index:2; position:absolute; top:5px; left:45px; }
+#slotGame #holderLever #leverPole { z-index:1; width:33px; height:230px; position:absolute; bottom:20px; left:70px; background-color:#000000; }
+#slotGame #holderLever #leverBase { background-color:#000000; z-index:0; width:84px; height:125px; position:absolute; bottom:0; left:45px; }
+
+#slotGame #slotsImage { top:40px; left:170px; z-index:2; position:absolute; height:280px; width:500px; }
+#slotGame #slotHolder { background-color:#fff; overflow:hidden; position:relative; margin:25px auto 0; width:490px; height:260px; }
+#slotGame #slotHolder #slot1 { position:absolute; left:40px; bottom:-144px; background: url(../images/prizeStripA.jpg) repeat-y top center; background-size:100% auto; width: 114px; height: 5440px; }
+#slotGame #slotHolder #slot2 { position:absolute; left:192px; bottom:-144px; background: url(../images/prizeStripB.jpg) repeat-y top center; background-size:100% auto; width: 114px; height: 5440px; }
+#slotGame #slotHolder #slot3 { position:absolute; left:346px; bottom:-359px; background: url(../images/prizeStripC.jpg) repeat-y top center; background-size:100% auto; width: 114px; height: 5440px; }
+#slotGame #btnSpin { -webkit-appearance:none !important; background: url(../images/btnSpin.png) no-repeat top center; background-size:100% auto; padding-top:20px; margin:40px auto; width: 210px; height: 105px; cursor:pointer; }
+
+#revealContent { opacity:0; position: absolute; top:0; left:0; width:840px; height:500px; margin: 0 auto; }
